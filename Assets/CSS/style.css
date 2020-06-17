@@ -4,3 +4,11 @@
     
     width: 100%;
 }
+
+.navbar img{
+    width:50px;
+}
+
+.jumbotron img{
+    width:200px;
+}
