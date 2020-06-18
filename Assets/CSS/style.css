@@ -6,9 +6,65 @@
 }
 
 .navbar img{
-    width:50px;
+    width:100px;
 }
 
 .jumbotron img{
     width:200px;
 }
+
+/*for smaller than 751*/
+@media only screen and (max-width: 750px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    body {
+        background-color: black;
+      }
+}
+
+ /* For 751px to 1199px*/
+@media only screen and (min-width: 751px) {
+/*
+    [class*="col-"] {
+      width: 100%;
+    }*/
+
+    .col-s-3{
+        width: 50%;
+        float: center;
+        
+    }
+
+    .col-s-9{
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        background-color: darkslategrey;
+      }
+}
+
+/*For 1200px or above*/
+@media only screen and (min-width: 1200px) {
+
+    .col-s-3{
+        width: 20%;
+    }
+
+    .col-s-9{
+        width: 80%;
+    }
+
+    body {
+        background-color: white;
+      }
+}
+
