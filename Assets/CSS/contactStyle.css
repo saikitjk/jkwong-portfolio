@@ -13,20 +13,6 @@
     width:200px;
 }
 
-.footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #f5f5f5;
-}
-
-.footer > .container{
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
 /*for smaller than 751*/
 @media only screen and (max-width: 750px) {
     img {
