@@ -17,6 +17,7 @@ The following designs have been implemented to address the criteria:
 
 # Submitted URL
 https://github.com/saikitjk/UWBootCampWork02
+
 https://saikitjk.github.io/UWBootCampWork02/index.html
 
 # Screenshot
@@ -41,9 +42,13 @@ https://saikitjk.github.io/UWBootCampWork02/index.html
 
 # credits
 https://www.w3schools.com
+
 https://getbootstrap.com
+
 https://validator.w3.org/nu/
+
 https://developer.mozilla.org/en-US/
+
 https://www.codeply.com
 
 
