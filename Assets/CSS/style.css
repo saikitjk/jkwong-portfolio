@@ -76,14 +76,21 @@
 
 /*for smaller than 751*/
 @media only screen and (max-width: 750px) {
-    img {
+    .col-s-3 img {
         max-width: 100%;
         height: auto;
+        padding-left: 2rem;
+    }
+
+    div p{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     
     body {
         background-color: black;
       }
+
 }
 
  /* For 751px to 1199px*/

@@ -9,9 +9,7 @@
     width:100px;
 }
 
-.jumbotron img{
-    width:200px;
-}
+
 
 .footer{
     
@@ -48,12 +46,23 @@
     height: auto;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    
+}
+
+
 /*for smaller than 751*/
 @media only screen and (max-width: 750px) {
-    img {
-        max-width: 100%;
-        height: auto;
+
+    .col-sm-6{
+        
+        padding-top: 3rem;
+  
+        
     }
+    
     
     body {
         background-color: black;
@@ -67,18 +76,15 @@
       width: 100%;
     }*/
 
-    .col-s-3{
-        width: 50%;
+    .col-sm-6{
+        
+        padding-top: 3rem;
   
         
     }
 
-    .col-s-9{
-        width: 100%;
-    }
-
     img {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
     }
 
@@ -90,13 +96,11 @@
 /*For 1200px or above*/
 @media only screen and (min-width: 1200px) {
 
-    .col-s-3{
-        width: 20%;
+    .col-sm-6{
+        padding-top: 2rem;
+        
     }
 
-    .col-s-9{
-        width: 80%;
-    }
 
     body {
         background-color: white;
