@@ -55,14 +55,16 @@
 
 /*for smaller than 751*/
 @media only screen and (max-width: 750px) {
-
-    .col-sm-6{
-        
+    .gg{
         padding-top: 3rem;
-  
-        
     }
-    
+
+    .box{
+
+        padding-top: 3rem;
+
+    }
+
     
     body {
         background-color: black;
@@ -71,17 +73,13 @@
 
  /* For 751px to 1199px*/
 @media only screen and (min-width: 751px) {
-/*
-    [class*="col-"] {
-      width: 100%;
-    }*/
 
-    .col-sm-6{
-        
+    .box{
+
         padding-top: 3rem;
-  
-        
+
     }
+
 
     img {
         max-width: 90%;
@@ -96,10 +94,13 @@
 /*For 1200px or above*/
 @media only screen and (min-width: 1200px) {
 
-    .col-sm-6{
-        padding-top: 2rem;
-        
+    .box{
+
+        padding-top: 3rem;
+
     }
+
+
 
 
     body {
