@@ -20,9 +20,9 @@ https://github.com/saikitjk/UWBootCampWork02
 https://saikitjk.github.io/UWBootCampWork02/index.html
 
 # Screenshot
-https://user-images.githubusercontent.com/34286313/85234610-70c25500-b3c3-11ea-8958-ad9a8dffdf3e.png
+![Screen Shot 2020-06-21 at 1 30 29 PM](https://user-images.githubusercontent.com/34286313/85234610-70c25500-b3c3-11ea-8958-ad9a8dffdf3e.png)
 
-https://user-images.githubusercontent.com/34286313/85234613-76b83600-b3c3-11ea-9205-82bb95e1fde6.png
+![Screen Shot 2020-06-21 at 1 30 29 PM](https://user-images.githubusercontent.com/34286313/85234613-76b83600-b3c3-11ea-9205-82bb95e1fde6.png)
 
 ![Screen Shot 2020-06-21 at 1 30 29 PM](https://user-images.githubusercontent.com/34286313/85234675-de6e8100-b3c3-11ea-9f70-b6c01b14c984.png)
 
