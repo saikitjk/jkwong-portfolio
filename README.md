@@ -26,6 +26,19 @@ https://saikitjk.github.io/UWBootCampWork02/index.html
 
 ![Screen Shot 2020-06-21 at 1 30 29 PM](https://user-images.githubusercontent.com/34286313/85234675-de6e8100-b3c3-11ea-9f70-b6c01b14c984.png)
 
+![Screen Shot 2020-06-21 at 1 36 35 PM](https://user-images.githubusercontent.com/34286313/85234770-aca9ea00-b3c4-11ea-8f51-e843ea4828a9.png)
+
+![Screen Shot 2020-06-21 at 1 36 58 PM](https://user-images.githubusercontent.com/34286313/85234773-af0c4400-b3c4-11ea-8aab-9f1508af4629.png)
+
+![Screen Shot 2020-06-21 at 1 37 18 PM](https://user-images.githubusercontent.com/34286313/85234775-b0d60780-b3c4-11ea-9798-368ab45b6a1c.png)
+
+![Screen Shot 2020-06-21 at 1 37 50 PM](https://user-images.githubusercontent.com/34286313/85234780-b5022500-b3c4-11ea-84cc-9261834930fe.png)
+
+![Screen Shot 2020-06-21 at 1 37 59 PM](https://user-images.githubusercontent.com/34286313/85234781-b7fd1580-b3c4-11ea-9dcd-779c1ae47d34.png)
+
+![Screen Shot 2020-06-21 at 1 38 19 PM](https://user-images.githubusercontent.com/34286313/85234784-ba5f6f80-b3c4-11ea-8103-ad8c244f791d.png)
+
+
 # credits
 https://www.w3schools.com
 https://getbootstrap.com
