@@ -42,6 +42,13 @@
     height: auto;
 }
 
+.pull-center img{
+    padding-top: 5px;
+    padding-right: 20px;
+    max-width: 35px;
+    height: auto;
+}
+
 .pull-right img{
     padding-top: 5px;
     padding-right: 20px;
