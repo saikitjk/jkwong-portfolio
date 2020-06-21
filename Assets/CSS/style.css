@@ -11,6 +11,7 @@
 
 .jumbotron img{
     width:200px;
+    
 }
 
 .footer{
@@ -76,11 +77,29 @@
 
 /*for smaller than 751*/
 @media only screen and (max-width: 750px) {
-    .col-s-3 img {
-        max-width: 100%;
-        height: auto;
-        padding-left: 2rem;
+
+    .container{
+        padding-left: 30px;
     }
+
+    .col-s-3 img {
+        max-width: 50%;
+        height: auto;
+        align-self: center;
+    
+    }
+
+    .col-s-3{
+        align-self: center;
+        padding-left: 30%;
+    }
+
+    .jumbotron img{
+        width:100%;
+        
+    }
+
+    
 
     div p{
         padding-left: 1rem;

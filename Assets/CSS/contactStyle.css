@@ -55,6 +55,10 @@
         max-width: 100%;
         height: auto;
     }
+    .container{
+        padding-left: 30px;
+    }
+
     
     body {
         background-color: black;
