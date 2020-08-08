@@ -12,8 +12,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <!--Custom CSS-->
     <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <!--Body-->
@@ -34,7 +37,9 @@
                   <a class="nav-link" href="portfolio.html" title="Portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html" title="Contact">Contact</a>
+                    <a class="nav-link" href="contact.html" title="Contact">Resume</a>
+                    <!--<a href="Assets/files/resume.pdf" download="Jason_Kwong_Resume" class="waves-effect waves-black btn-flat">Download
+                      Resume</a>-->
                 </li>
               </ul>
             </nav>
@@ -44,20 +49,41 @@
       <!--About me-->
       <section id="main">
         <section class="jumbotron">
-            <h2><small class="text-info">About me</small></h2>
+            <h2><small class="text-info">Professional Profile</small></h2>
             <hr class="my-4">
 
-            <section class="row">
+            <div class="row">
             
-              <figure class="col-s-3"><img  src="Assets/Images/me.jpg" class="img-thumbnail" alt="me"></figure>
-              <div class="col-s-9">
+              <div class="col-s-3"><img  src="Assets/Images/me.jpg" class="img-thumbnail" alt="me"></div>
+              <div class="col-s-9" data-aos="flip-right">
+                <h6>Skillset</h6>
+                    <div id="skillbarContainer" class="container">
+                      HTML/CSS
+                      <div class="skills html">80%</div>
+                    </div>
+                    <div id="skillbarContainer" class="container">
+                      Javascript
+                      <div class="skills js">70%</div>
+                    </div>
+                    <div id="skillbarContainer" class="container">
+                      SQL
+                      <div class="skills sql">60%</div>
+                    </div>
+                    <div id="skillbarContainer" class="container">
+                      Python
+                      <div class="skills python">40%</div>
+                    </div>
+                  </div>
+                </div>
+             <div class="row">
+              <div class="col-s-12">
                 <br>
-                <p>I am a System Administrator with daily experience in building solutions to address system issues and automate processes using powershell and Jscript.</p>
-                <p>I am proactive in learning new things with core competency in full-stack development such as Javascript, HTML, CSS, React, NodeJS, MongoDB, SQL, MVC framwork and Restful APIs.</p>
+                <p>I am a System Administrator with daily experience in building solutions to address system issues and automate processes using powershell and Javascript. I am proactive in learning new things with core competency in full-stack development such as Javascript, HTML, CSS, React, NodeJS, MongoDB, SQL, and Restful APIs.</p>
                 <P>I am currently self-learning Python while completing a full-stack web development bootcamp at the Univeristy of Washington where I am learning the MERN stack in order to improve myself to advance my career to the next level.</P>
+
               </div>
-            </section>
-          </section>
+            
+            </div>
         </section>
 
   <!--Footer-->
@@ -80,6 +106,12 @@
     </section>
   </footer>
 </main>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 
 </html>
