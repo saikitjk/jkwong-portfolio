@@ -31,10 +31,10 @@
   color: white; /* White text color */
 }
 
-.html {width: 90%; background-color: #4CAF50;} /* Green */
-.js {width: 70%; background-color: #4CAF50;} /* Red */
-.sql {width: 60%; background-color: #4CAF50;} /* Dark Grey */
-.python {width: 40%; background-color: #f44336;} /* Dark Grey */
+.html {width: 90%; background-color: #4CAF50;} 
+.js {width: 70%; background-color: #4CAF50;} 
+.sql {width: 60%; background-color: #2196F3;} 
+.python {width: 40%; background-color: #f4c136;} 
 
 
 
@@ -197,10 +197,17 @@
 
 
     .col-s-9{
-        width: 70%;
+        width: 50%;
         padding-left: 1%;
+        padding-top: 2%;
 
     }
+    .col-s-9 h6{
+        padding-left: 3%;
+
+
+    }
+
 
     .col-s-12{
         
