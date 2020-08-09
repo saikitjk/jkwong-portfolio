@@ -19,6 +19,30 @@
 h6 {
     font-weight: bold;
 }
+.card-title{
+    font-size: small
+}
+
+.card-text{
+    font-size: x-small;
+}
+
+.card-link{
+    font-size: x-small;
+}
+
+#projectTile h6{
+    padding-bottom: 1%;
+}
+/*font*/
+
+.card img{
+    height: 150px;
+}
+
+
+
+
 
 /*Skill bar*/
 /* Make sure that padding behaves as expected */
@@ -46,6 +70,12 @@ h6 {
     text-align: center;
 }
 
+#projectTile{
+    margin-top: 5%;
+}
+#projectRow{
+    margin-top: 2%;
+}
 
 /*footer*/
 .footer{
@@ -243,7 +273,7 @@ h6 {
     
     /*icons*/
     .skillsicon{
-        width: 220px;
+        width: 230px;
         height: 220px;
         padding: 4%;
     }
