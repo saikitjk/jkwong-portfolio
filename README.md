@@ -1,4 +1,4 @@
-# UWBootCampWork02
+# My Portfolio
 
 # Objectives
 The objectvies of this assignment is to create a portfolio that use Bootstrap's grid system and has responsive layout to difference screen size.
@@ -16,9 +16,9 @@ The following designs have been implemented to address the criteria:
 
 
 # Submitted URL
-https://github.com/saikitjk/UWBootCampWork02
+https://github.com/saikitjk/MyPortfolio
 
-https://saikitjk.github.io/UWBootCampWork02/index.html
+https://saikitjk.github.io/MyPortfolio/index.html
 
 # Screenshot
 ![Screen Shot 2020-06-21 at 1 30 29 PM](https://user-images.githubusercontent.com/34286313/85234610-70c25500-b3c3-11ea-8958-ad9a8dffdf3e.png)
