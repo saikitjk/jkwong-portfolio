@@ -1,0 +1,35 @@
+.container{
+    margin-top: 0.5%;
+}
+
+.parallax { 
+    /* The image used */
+  
+    /* Set a specific height */
+    height: 250px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+  }
+
+  .parallax img{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+
+  }
+
+  h1{
+      color:white;
+  }
+
+
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
