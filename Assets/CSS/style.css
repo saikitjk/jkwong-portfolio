@@ -1,70 +1,87 @@
 /*Main CSS for the Nav bar*/
 
-.nav-link{
-    
-    width: 100%;
+.nav-link {
+  width: 100%;
+  font-family: "Abel", sans-serif;
 }
-.navbar{
-    border-radius: 10px;
-}
-
-.navbar img{
-    width:100px;
+.navbar {
+  border-radius: 10px;
 }
 
+.navbar img {
+  width: 100px;
+}
+
+#me img {
+  border-radius: 8px;
+}
+#jumbo {
+  background-color: white;
+}
 /*font*/
-.text-info{
-    font-family: 'Inconsolata', monospace; 
+
+h1 {
+  font-family: "Abel", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.text-info {
+  font-family: "Abel", sans-serif;
+  color: rgba(0, 0, 0, 0.5) !important;
 }
 .col-s-9 {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Abel", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
 }
-.col-s-12{
-    font-family: 'Open Sans', sans-serif;
+.col-s-12 {
+  font-family: "Abel", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
 }
+
 h6 {
-    font-weight: bold;
-}
-.card-title{
-    font-size: medium;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.card-text{
-    font-size: small;
-}
-#cardSkill{
-    font-size: x-small;
+.card-title {
+  font-size: medium;
 }
 
-.card-link{
-    font-size: small;
+.card-text {
+  font-size: small;
+}
+#cardSkill {
+  font-size: x-small;
 }
 
-#projectTile h6{
-    padding-bottom: 1%;
+.card-link {
+  font-size: small;
+}
+
+#projectTile h6 {
+  padding-bottom: 1%;
 }
 /*font*/
 
-.card img{
-    width: 250px;
-    height: 150px;
-    display: block;
+.card img {
+  width: 250px;
+  height: 150px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
 }
 
-.card{
-    height: 100%;
+.card {
+  height: 100%;
 }
-
-
-
-
 
 /*Skill bar*/
 /* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box;
+}
 
 /* Container for skill bars */
 #skillbarContainer {
@@ -78,298 +95,307 @@ h6 {
   color: white; /* White text color */
 }
 
-.html {width: 90%; background-color: #4CAF50;} 
-.js {width: 70%; background-color: #4CAF50;} 
-.sql {width: 60%; background-color: #2196F3;} 
-.python {width: 40%; background-color: #f4c136;} 
+.skillsicon {
+  filter: opacity(50%);
 
-
-.tech{
-    text-align: center;
+  max-width: 20%;
+  height: auto;
+  padding: 4%;
 }
 
-#projectTile{
-    margin-top: 5%;
+.html {
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.36);
 }
-#projectRow{
-    margin-top: 2%;
+.js {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.32);
+}
+.sql {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.python {
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.27);
+}
+
+.tech {
+  text-align: center;
+}
+
+#projectTile {
+  margin-top: 5%;
+}
+#projectRow {
+  margin-top: 2%;
 }
 
 /*footer*/
-.footer{
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    opacity: 0.8;
+.footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  opacity: 0.8;
 }
 
-.footer > .container{
-    padding-right: 15px;
-    padding-left: 15px;
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
 }
-
-
 
 #footer-images ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none
-  }
-
-.pull-left img{
-    padding-top: 5px;
-    padding-right: 15px;
-    max-width: 35px;
-    height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
 }
 
-.pull-center img{
-    padding-top: 5px;
-    padding-right: 20px;
-    max-width: 35px;
-    height: auto;
+.pull-left img {
+  padding-top: 5px;
+  padding-right: 15px;
+  max-width: 35px;
+  height: auto;
 }
 
-.pull-right img{
-    padding-top: 5px;
-    padding-right: 15px;
-    max-width: 35px;
-    height: auto;
+.pull-center img {
+  padding-top: 5px;
+  padding-right: 20px;
+  max-width: 35px;
+  height: auto;
+}
+
+.pull-right img {
+  padding-top: 5px;
+  padding-right: 15px;
+  max-width: 35px;
+  height: auto;
 }
 
 /*phone popup*/
 .popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  /* The actual popup */
-  .popup .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-  }
-  
-  /* Popup arrow */
-  .popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-  }
-  
-  /* Toggle this class - hide and show the popup */
-  .popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-  }
-  
-  /* Add animation (fade in the popup) */
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-  }
-  
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
 
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 /*for smaller than 450*/
 @media only screen and (max-width: 450px) {
-    .jumbotron{
-        width:100%;
-    }
-    .container{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+  .jumbotron {
+    width: 100%;
+  }
+  #topContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container {
+    padding-left: 25px;
+    padding-right: 15px;
+  }
 
-    .col-s-3 img {
-        max-width: 100%;
-        height: auto;
-        align-self: center;
-    
-    }
-    .col-s-9{
-        width: 100%;
-        padding-left: 1%;
-    }
-    .col-s-9 h6{
-        padding-top: 1%;
-        padding-left: 3%;
-    }
+  .col-s-3 img {
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+  }
+  .col-s-9 {
+    width: 100%;
+    padding-left: 1%;
+  }
+  .col-s-9 h6 {
+    padding-top: 1%;
+    padding-left: 3%;
+  }
 
-    .col-s-3{
-        width:100%;
-        align-self: center;
-    }
+  .col-s-3 {
+    width: 100%;
+    align-self: center;
+  }
 
+  .col-s-12 {
+    width: 100%;
+    padding-left: 1%;
+    margin-top: 1%;
+  }
+  .col-s-12 h6 {
+    padding-left: 5%;
+  }
 
+  #me {
+    width: 100%;
+  }
 
-    .col-s-12{
-        width: 100%;
-        padding-left: 1%;
-        margin-top: 1%;
-    }
-    .col-s-12 h6{
-        padding-left: 5%;
-    }
+  div p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
-    #me{
-        width:100%;
-    }
+  body {
+    width: 100%;
+    background-color: white;
+  }
 
+  /*skill icon*/
+  .skillsicon {
+    max-width: 20%;
+    height: auto;
+    margin-left: 6%;
+  }
 
-    div p{
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    
-    body {
-        width:100%;
-        background-color: black;
-      }
-
-
-    /*skill icon*/
-    .skillsicon{
-        width: 65px;
-        height: 75px;
-        margin-left: 6%;
-        
-    }
-
-    .col-sm-12{
-        padding-left: 10%;
-        width:90%;
-    }
-
-
-
-
+  .col-sm-12 {
+    padding-left: 10%;
+    width: 90%;
+  }
 }
 
- /* For 751px to 1199px*/
+/* For 751px to 1199px*/
 @media only screen and (min-width: 451px) {
-/*
+  /*
     [class*="col-"] {
       width: 100%;
     }*/
 
-    .col-s-3{
-        width: 50%;
-        padding-left: 2%;  
-    }
+  .col-s-3 {
+    width: 50%;
+    padding-left: 2%;
+  }
 
-    .col-s-9{
-        width: 50%;
-        padding-left: 1%;
-    }
-    .col-s-9 h6{
-        padding-top: 1%;
-        padding-left: 4%;
-    }
+  .col-s-9 {
+    width: 50%;
+    padding-left: 1%;
+  }
+  .col-s-9 h6 {
+    padding-top: 1%;
+    padding-left: 4%;
+  }
 
+  .col-s-12 {
+    width: 100%;
+  }
+  .col-s-12 {
+    padding: 4%;
+    margin-top: 0.5%;
+  }
 
-    .col-s-12{
-        width: 100%;
-    }
-    .col-s-12{
-        padding: 4%;
-        margin-top: 0.5%;
-    }
+  /*icons*/
+  .skillsicon {
+    max-width: 20%;
+    height: auto;
+    padding: 4%;
+  }
 
-        /*icons*/
-    .skillsicon{
-        width: 80px;
-        height: 80px;
-        padding: 4%;
-    }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
- 
+  body {
+    background-color: white;
+  }
 
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    body {
-        background-color: darkslategrey;
-      }
-
-    #topContainer{
-        padding-left: 3%;
-    }  
+  #topContainer {
+    padding-left: 3%;
+  }
 }
 
 /*For 1200px or above*/
 @media only screen and (min-width: 900px) {
+  .col-s-3 {
+    width: 30%;
+  }
 
-    .col-s-3{
-        width: 30%;
-    }
+  .col-s-9 {
+    width: 50%;
+    padding-left: 1%;
+    padding-top: 2%;
+  }
+  .col-s-9 h6 {
+    padding-left: 3%;
+  }
 
+  .col-s-12 {
+    width: 100%;
+  }
 
-    .col-s-9{
-        width: 50%;
-        padding-left: 1%;
-        padding-top: 2%;
+  .col-s-12 {
+    padding-left: 1%;
+    margin-top: 0.5%;
+  }
 
-    }
-    .col-s-9 h6{
-        padding-left: 3%;
-    }
+  /*icons*/
+  .skillsicon {
+    max-width: 20%;
+    height: auto;
+    padding: 4%;
+  }
 
+  body {
+    background-color: white;
+  }
 
-    .col-s-12{
-        width: 100%;
-    }
-
-    .col-s-12{
-        padding-left: 1%;
-        margin-top: 0.5%;
-    }
-    
-    /*icons*/
-    .skillsicon{
-        width: 235px;
-        height: 220px;
-        padding: 4%;
-    }
-
-    body {
-        background-color: white;
-      }
-      
-    #jumbo{
-        padding-left: 8%;
-    }
+  #jumbo {
+    padding-left: 8%;
+  }
 }
-
