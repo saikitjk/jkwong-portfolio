@@ -1,6 +1,9 @@
 .container {
   margin-top: 0.5%;
 }
+* {
+  font-family: "Abel", sans-serif;
+}
 
 .parallax {
   /* The image used */
@@ -20,7 +23,7 @@
   border-radius: 8px;
 }
 
-h1 {
+.aos-animate h1 {
   color: black;
   font-weight: bolder;
   -webkit-text-stroke: 2px white;
