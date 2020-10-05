@@ -12,10 +12,17 @@
   width: 100px;
 }
 
+.bg-light {
+  margin-top: 1%;
+  background-color: white !important;
+  padding-top: 4%;
+}
+
 #me img {
   border-radius: 8px;
 }
 #jumbo {
+  padding-top: 1rem;
   background-color: white;
 }
 /*font*/
@@ -97,7 +104,7 @@ h6 {
 
 .skillsicon {
   filter: opacity(50%);
-
+  filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5));
   max-width: 20%;
   height: auto;
   padding: 4%;
