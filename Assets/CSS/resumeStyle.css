@@ -29,6 +29,8 @@
   -webkit-text-stroke: 2px white;
 }
 
+/*backButton*/
+
 /*footer*/
 .footer {
   position: sticky;
@@ -93,7 +95,7 @@
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 8px 0;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   bottom: 125%;

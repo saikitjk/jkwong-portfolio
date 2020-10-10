@@ -69,6 +69,24 @@ h6 {
 #projectTile h6 {
   padding-bottom: 1%;
 }
+
+/*topbutton*/
+#topButton {
+  display: none;
+  opacity: 0.5;
+  position: fixed;
+  bottom: 200px;
+  right: 150px;
+  z-index: 99;
+  outline: none;
+  cursor: pointer;
+  font-family: "Abel", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}
+#topButton:hover {
+  color: black;
+}
 /*font*/
 
 .card img {
@@ -202,7 +220,7 @@ h6 {
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 8px 0;
+  padding: 3px 0;
   position: absolute;
   z-index: 1;
   bottom: 125%;
@@ -250,6 +268,21 @@ h6 {
 
 /*for smaller than 450*/
 @media only screen and (max-width: 450px) {
+  /*topbutton*/
+  #topButton {
+    opacity: 0.5;
+    position: fixed;
+    bottom: 200px;
+    right: 10px;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+    font-family: "Abel", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    padding: 2px 5px 1px 5px; /*top right bottom left*/
+  }
+
   .jumbotron {
     width: 100%;
   }
@@ -323,6 +356,18 @@ h6 {
     [class*="col-"] {
       width: 100%;
     }*/
+  #topButton {
+    opacity: 0.5;
+    position: fixed;
+    bottom: 200px;
+    right: 50px;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+    font-family: "Abel", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+  }
 
   .col-s-3 {
     width: 50%;
@@ -369,6 +414,19 @@ h6 {
 
 /*For 1200px or above*/
 @media only screen and (min-width: 900px) {
+  /*topbutton*/
+  #topButton {
+    opacity: 0.5;
+    position: fixed;
+    bottom: 200px;
+    right: 200px;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+    font-family: "Abel", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+  }
   .col-s-3 {
     width: 30%;
   }
