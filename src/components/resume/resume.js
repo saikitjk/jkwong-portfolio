@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function resume() {
-  return <div></div>;
+export default function Resume() {
+  return <div>This is resume</div>;
 }

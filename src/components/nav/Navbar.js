@@ -1,9 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
 export default function Navbar() {
-  const [activeState, setActiveState] = useState("About");
+  const [activeState, setActiveState] = useState("");
+  //useEffect hook to check the url when the app is loaded the first time
+  useEffect(() => {
+    let currentURL = window.location.href;
+    if (currentURL.endsWith("/")) setActiveState("About");
+    else if (currentURL.endsWith("/resume")) setActiveState("Resume");
+    else if (currentURL.endsWith("/projects")) setActiveState("Projects");
+  }, [activeState]);
+
   return (
     <>
       <div className="navbar">
