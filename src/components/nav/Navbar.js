@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 export default function Navbar() {
@@ -10,30 +11,38 @@ export default function Navbar() {
 
         <div className="navbar_objects">
           {activeState !== "About" ? (
-            <div
-              className="navbar_object"
-              onClick={() => setActiveState("About")}
-            >
-              About
-            </div>
+            <Link to="/">
+              <div
+                className="navbar_object"
+                onClick={() => setActiveState("About")}
+              >
+                About
+              </div>
+            </Link>
           ) : null}
 
           {activeState !== "Resume" ? (
-            <div
-              className="navbar_object"
-              onClick={() => setActiveState("Resume")}
-            >
-              Resume
-            </div>
+            <Link to="/resume">
+              {" "}
+              <div
+                className="navbar_object"
+                onClick={() => setActiveState("Resume")}
+              >
+                Resume
+              </div>
+            </Link>
           ) : null}
 
           {activeState !== "Projects" ? (
-            <div
-              className="navbar_object"
-              onClick={() => setActiveState("Projects")}
-            >
-              Projects
-            </div>
+            <Link to="/projects">
+              {" "}
+              <div
+                className="navbar_object"
+                onClick={() => setActiveState("Projects")}
+              >
+                Projects
+              </div>
+            </Link>
           ) : null}
         </div>
       </div>
