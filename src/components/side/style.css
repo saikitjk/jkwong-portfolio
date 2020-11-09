@@ -1,8 +1,9 @@
 .sideMenu {
   background-color: whitesmoke;
   height: 100%;
-  border-radius: 4%;
-  padding: 25px 15px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   box-shadow: 0 0 10px skyblue;
   text-align: center;
 }
@@ -21,13 +22,19 @@
 .myName {
   padding-top: 30px;
   padding-bottom: 10px;
+  font-size: large;
+  font-family: "Roboto Mono", monospace;
 }
 
 .title {
+  padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #ebebeb;
+  border-radius: 30px;
 }
 
 .side_file {
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -35,7 +42,11 @@
   padding-bottom: 20px;
 }
 .contact_item {
-  padding-bottom: 7px;
+  padding-bottom: 10px;
+}
+
+.contact_item:hover {
+  background-color: #e4e4e4;
 }
 
 .side_icon {
@@ -43,5 +54,15 @@
 }
 
 .side_contacts {
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ebebeb;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 5px;
+}
+
+.side_emailme {
+  padding-top: 20px;
+  cursor: pointer;
 }
