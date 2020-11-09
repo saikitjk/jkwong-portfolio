@@ -9,24 +9,32 @@ export default function Navbar() {
         <div className="navbar_active">{activeState}</div>
 
         <div className="navbar_objects">
-          <div
-            className="navbar_object"
-            onClick={() => setActiveState("About")}
-          >
-            About
-          </div>
-          <div
-            className="navbar_object"
-            onClick={() => setActiveState("Resume")}
-          >
-            Resume
-          </div>
-          <div
-            className="navbar_object"
-            onClick={() => setActiveState("Projects")}
-          >
-            Projects
-          </div>
+          {activeState !== "About" ? (
+            <div
+              className="navbar_object"
+              onClick={() => setActiveState("About")}
+            >
+              About
+            </div>
+          ) : null}
+
+          {activeState !== "Resume" ? (
+            <div
+              className="navbar_object"
+              onClick={() => setActiveState("Resume")}
+            >
+              Resume
+            </div>
+          ) : null}
+
+          {activeState !== "Projects" ? (
+            <div
+              className="navbar_object"
+              onClick={() => setActiveState("Projects")}
+            >
+              Projects
+            </div>
+          ) : null}
         </div>
       </div>
     </>
