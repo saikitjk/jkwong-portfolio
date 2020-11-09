@@ -1,0 +1,46 @@
+.sideMenu {
+  background-color: whitesmoke;
+  height: 100%;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px skyblue;
+  text-align: center;
+}
+.profilePic {
+  height: 210px;
+  width: 220px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.side_icon {
+  width: 25px;
+  height: 25px;
+}
+
+.myName {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+.side_item {
+  padding-bottom: 20px;
+}
+
+.side_location {
+  padding-bottom: 20px;
+}
+.contact_item {
+  padding-bottom: 7px;
+}
+
+.side_icon {
+  margin-right: 5px;
+}
+
+.side_contacts {
+  padding-bottom: 20px;
+}

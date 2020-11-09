@@ -1,58 +1,51 @@
 # My Portfolio
 
-# Objectives
-The objectvies of this assignment is to create a portfolio that use Bootstrap's grid system and has responsive layout to difference screen size.
-The following designs have been implemented to address the criteria:
-1) Implemented sticky nav bar on all three pages
-2) Implemented a button to be shown in smaller screen size that would allow users to open and explore the nav options
-3) Implemented sticky footer for all pages
-4) Implemented jumbotron and container to better layout
-5) Implemented rows, columns, and sub-columns
-6) Implemented responsive images
-7) Implemented Bootstrap form as contract form
-8) Added Github, Linkedin, Email links on footer
-9) Added Sementic tags
-10) Validated by HTML validation with no errors (Only warnings for sections with no header in them)
+## Description
 
+My professional portfolio that built upon a foundation in combination of React, Javascript, Node.js
 
-# Submitted URL
-https://github.com/saikitjk/MyPortfolio
+## Deployed application
 
-https://saikitjk.github.io/MyPortfolio/index.html
+## Screenshot
 
-# Screenshot
-![Screen Shot 2020-06-21 at 1 30 29 PM](https://user-images.githubusercontent.com/34286313/85234610-70c25500-b3c3-11ea-8958-ad9a8dffdf3e.png)
+## Table of contents
 
-![Screen Shot 2020-06-21 at 1 30 29 PM](https://user-images.githubusercontent.com/34286313/85234613-76b83600-b3c3-11ea-9205-82bb95e1fde6.png)
+- [Technology](#Technology)
 
-![Screen Shot 2020-06-21 at 1 30 29 PM](https://user-images.githubusercontent.com/34286313/85234675-de6e8100-b3c3-11ea-9f70-b6c01b14c984.png)
+- [Install](#installation)
 
-![Screen Shot 2020-06-21 at 1 36 35 PM](https://user-images.githubusercontent.com/34286313/85234770-aca9ea00-b3c4-11ea-8f51-e843ea4828a9.png)
+- [Usage](#Usage)
 
-![Screen Shot 2020-06-21 at 1 36 58 PM](https://user-images.githubusercontent.com/34286313/85234773-af0c4400-b3c4-11ea-8aab-9f1508af4629.png)
+- [Contributors](#contributors)
 
-![Screen Shot 2020-06-21 at 1 37 18 PM](https://user-images.githubusercontent.com/34286313/85234775-b0d60780-b3c4-11ea-9798-368ab45b6a1c.png)
+- [Tests](#tests)
 
-![Screen Shot 2020-06-21 at 1 37 50 PM](https://user-images.githubusercontent.com/34286313/85234780-b5022500-b3c4-11ea-84cc-9261834930fe.png)
+- [Questions](#Questions?)
 
-![Screen Shot 2020-06-21 at 1 37 59 PM](https://user-images.githubusercontent.com/34286313/85234781-b7fd1580-b3c4-11ea-9dcd-779c1ae47d34.png)
+## Technology
 
-![Screen Shot 2020-06-21 at 1 38 19 PM](https://user-images.githubusercontent.com/34286313/85234784-ba5f6f80-b3c4-11ea-8103-ad8c244f791d.png)
+    - HTML
+    - CSS
+    - Javascript
+    - NPM
+        - modules: axios, gh-pages, react, react-moment, react-script
+    - React
+    - Bootstrap
 
+## **Installation**
 
-# credits
-https://www.w3schools.com
+    npm init
+    npm install
 
-https://getbootstrap.com
+### **Contributors**
 
-https://validator.w3.org/nu/
+    Jason Kwong
 
-https://developer.mozilla.org/en-US/
+### **Tests**
 
-https://www.codeply.com
+    N/A
 
+### **Questions**
 
-
-
-
-
+If you have any questions about the repo, open an issue or contact me direct at saikitjk@gmail.com.
+You can find more of my work in my Github [saikitjk](https://github.com/saikitjk/).
