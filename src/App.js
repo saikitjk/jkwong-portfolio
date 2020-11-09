@@ -8,13 +8,12 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-sm-12 col-lg-3">
             <Sidebar />
           </div>
-          <div className="col-lg-9">
-            <div className="app_main">
-              <Main />
-            </div>
+
+          <div className="col-sm-12 col-lg-9">
+            <Main />
           </div>
         </div>
       </div>

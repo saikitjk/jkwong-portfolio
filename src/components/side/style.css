@@ -1,6 +1,7 @@
 .sideMenu {
   background-color: whitesmoke;
   height: 100%;
+  border-radius: 4%;
   padding: 25px 15px;
   box-shadow: 0 0 10px skyblue;
   text-align: center;
@@ -26,7 +27,7 @@
   padding-bottom: 20px;
 }
 
-.side_item {
+.side_file {
   padding-bottom: 20px;
 }
 

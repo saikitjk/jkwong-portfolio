@@ -1,3 +1,7 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
   background-image: linear-gradient(to top, #274046, #ffffff);
   background-attachment: fixed;
@@ -11,17 +15,8 @@ body {
   height: 93vh;
 }
 
-.app_sidebar {
-  background-color: whitesmoke;
-  height: 100%;
-  padding: 25px 15px;
-  box-shadow: 0 0 10px skyblue;
+.col-lg-3 {
+  margin-bottom: 10px;
 }
 
-.app_main {
-  background-color: whitesmoke;
-  height: 100%;
-  border-radius: 2%;
-  padding: 25px 15px;
-  box-shadow: 0 0 10px skyblue;
-}
+@media (min-width: 576px);

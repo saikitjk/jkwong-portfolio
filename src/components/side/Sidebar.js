@@ -7,7 +7,7 @@ import Phone from "../../assets/images/phone.png";
 import Email from "../../assets/images/email.png";
 import Jk from "../../assets/images/jk.jpg";
 import Pin from "../../assets/images/location.png";
-//import Resume from "../../assets/file/resume.pdf";
+import Resume from "../../assets/images/resume.png";
 
 export default function Sidebar() {
   return (
@@ -15,12 +15,14 @@ export default function Sidebar() {
       <img src={Jk} alt="profile" className="profilePic" />
       <div className="myName">Jason Kwong</div>
       <div className="title">Full Stack Developer</div>
-      <a href="">
-        <div className="side_item">
-          <img src="" alt="resume" className="resume_download" />
+
+      <div className="side_file">
+        <a href="https://drive.google.com/file/d/1uf9TAzXfz6H7qDwzpKaI7TUIBn5PF1fC/view?usp=sharing">
+          <img className="side_icon" src={Resume} alt="resume" />
           Resume
-        </div>
-      </a>
+        </a>
+      </div>
+
       <div className="side_location">
         <img className="side_icon" src={Pin} alt="location" />
         Seattle, WA
