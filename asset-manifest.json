@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/jkwong-portfolio/static/css/main.29ea111c.chunk.css",
+    "main.js": "/jkwong-portfolio/static/js/main.40dff806.chunk.js",
+    "main.js.map": "/jkwong-portfolio/static/js/main.40dff806.chunk.js.map",
+    "runtime-main.js": "/jkwong-portfolio/static/js/runtime-main.43d893e8.js",
+    "runtime-main.js.map": "/jkwong-portfolio/static/js/runtime-main.43d893e8.js.map",
+    "static/js/2.1cf4a48e.chunk.js": "/jkwong-portfolio/static/js/2.1cf4a48e.chunk.js",
+    "static/js/2.1cf4a48e.chunk.js.map": "/jkwong-portfolio/static/js/2.1cf4a48e.chunk.js.map",
+    "static/js/3.caf04954.chunk.js": "/jkwong-portfolio/static/js/3.caf04954.chunk.js",
+    "static/js/3.caf04954.chunk.js.map": "/jkwong-portfolio/static/js/3.caf04954.chunk.js.map",
+    "index.html": "/jkwong-portfolio/index.html",
+    "static/css/main.29ea111c.chunk.css.map": "/jkwong-portfolio/static/css/main.29ea111c.chunk.css.map",
+    "static/js/2.1cf4a48e.chunk.js.LICENSE.txt": "/jkwong-portfolio/static/js/2.1cf4a48e.chunk.js.LICENSE.txt",
+    "static/media/in.c59baacb.png": "/jkwong-portfolio/static/media/in.c59baacb.png",
+    "static/media/jk.264d7ad4.jpg": "/jkwong-portfolio/static/media/jk.264d7ad4.jpg",
+    "static/media/location.cabae390.png": "/jkwong-portfolio/static/media/location.cabae390.png",
+    "static/media/phone.fb0e5cf7.png": "/jkwong-portfolio/static/media/phone.fb0e5cf7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43d893e8.js",
+    "static/js/2.1cf4a48e.chunk.js",
+    "static/css/main.29ea111c.chunk.css",
+    "static/js/main.40dff806.chunk.js"
+  ]
+}
