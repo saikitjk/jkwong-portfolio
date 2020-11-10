@@ -20,10 +20,9 @@ export default function About() {
   ];
   return (
     <div className="about">
-      <h6>
-        <Intro />
-      </h6>
-      <div className="container myGiveList">
+      <Intro />
+
+      <div className="container">
         <h6 className="listTitle">Tech I use</h6>
         <div className="row">
           {skills.map((props) => (

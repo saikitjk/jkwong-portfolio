@@ -6,14 +6,33 @@ body {
   background-image: linear-gradient(to top, #274046, #ffffff);
   background-attachment: fixed;
 }
+a {
+  text-decoration: none;
+  color: #354548;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
 
 .container {
   padding-top: 50px;
 }
 
-.row {
-  height: 86vh;
+.appRow {
+  height: 93vh;
+  padding-bottom: 10px;
 }
+
+.app_main {
+  background-color: whitesmoke;
+  height: 100%;
+  border-radius: 4%;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px skyblue;
+}
+
 @media (max-width: 990px) {
   .col-sm-12 {
     margin-bottom: 40px;

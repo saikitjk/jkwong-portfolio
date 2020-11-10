@@ -13,27 +13,25 @@ import "./style.css";
 
 export default function MainContent() {
   return (
-    <Router>
-      <div className="app_main">
-        <Nav />
-        <Switch>
-          <Route exact path="/">
-            <About />
-          </Route>
+    <>
+      <Nav />
+      <Switch>
+        <Route exact path="/">
+          <About />
+        </Route>
 
-          <Route path="/resume">
-            <Resume />
-          </Route>
+        <Route path="/resume">
+          <Resume />
+        </Route>
 
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route>
-            <Redirect to="/" />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        <Route>
+          <Redirect to="/" />
+        </Route>
+      </Switch>
+    </>
   );
 }
 

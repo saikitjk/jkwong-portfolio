@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 //object destructuring first
 const SkillCard = (props) => (
@@ -6,8 +7,8 @@ const SkillCard = (props) => (
     <div className="skillCard">
       <img src={props.SkillIcon} alt="skillIcon" className="skillCardIcon" />
       <div className="skillCardBody">
-        <div className="skillCardTitle">{props.skillTitle}</div>
-        <div className="skillCardDesc">{props.skillDesc}</div>
+        <h6 className="skillCardTitle">{props.skillTitle}</h6>
+        <p className="skillCardDesc">{props.skillDesc}</p>
       </div>
     </div>
   </div>

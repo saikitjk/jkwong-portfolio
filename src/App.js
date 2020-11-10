@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Sidebar from "./components/side/Sidebar";
 import Main from "./components/main/MainContent";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -9,12 +9,12 @@ function App() {
     <Router>
       <div className="App">
         <div className="container">
-          <div className="row">
-            <div className="col-sm-12 col-lg-3">
+          <div className="row appRow">
+            <div className="col-lg-3">
               <Sidebar />
             </div>
 
-            <div className="col-sm-12 col-lg-9">
+            <div className="col-lg-9 app_main">
               <Main />
             </div>
           </div>
@@ -25,3 +25,5 @@ function App() {
 }
 
 export default App;
+
+//<div className="app_main">
