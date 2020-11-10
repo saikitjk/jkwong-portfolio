@@ -17,6 +17,36 @@ export default function About() {
       skillTitle: "Javascript",
       skillDesc: "",
     },
+    {
+      skillIcon: LogoJavascript,
+      skillTitle: "Javascript",
+      skillDesc: "",
+    },
+    {
+      skillIcon: LogoJavascript,
+      skillTitle: "Javascript",
+      skillDesc: "",
+    },
+    {
+      skillIcon: LogoJavascript,
+      skillTitle: "Javascript",
+      skillDesc: "",
+    },
+    {
+      skillIcon: LogoJavascript,
+      skillTitle: "Javascript",
+      skillDesc: "",
+    },
+    {
+      skillIcon: LogoJavascript,
+      skillTitle: "Javascript",
+      skillDesc: "",
+    },
+    {
+      skillIcon: LogoJavascript,
+      skillTitle: "Javascript",
+      skillDesc: "",
+    },
   ];
   return (
     <div className="about">

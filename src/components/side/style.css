@@ -90,12 +90,21 @@ a {
   }
 
   .profilePic {
-    height: 130px;
-    width: 140px;
+    height: 170px;
+    width: 180px;
   }
 
   .side_contacts {
     margin-left: auto;
     margin-right: auto;
+  }
+  .sideMenu {
+    border-radius: 10px;
+
+    height: auto;
+  }
+
+  .side_emailme {
+    padding-bottom: 20px;
   }
 }
