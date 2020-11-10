@@ -1,0 +1,27 @@
+.techSkillRow {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.techSkillListRow {
+  padding-top: 50px;
+}
+
+.experienceRow {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.experienceListRow {
+  padding-top: 25px;
+}
+
+.educationRow {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.educationListRow {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
