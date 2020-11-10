@@ -5,10 +5,10 @@ import "./style.css";
 const SkillCard = (props) => (
   <div className="col-lg-6">
     <div className="skillCard">
-      <img src={props.SkillIcon} alt="skillIcon" className="skillCardIcon" />
+      <img src={props.icon} alt="skillIcon" className="skillCardIcon" />
       <div className="skillCardBody">
-        <h6 className="skillCardTitle">{props.skillTitle}</h6>
-        <p className="skillCardDesc">{props.skillDesc}</p>
+        <h6 className="skillCardTitle">{props.title}</h6>
+        <p className="skillCardDesc">{props.desc}</p>
       </div>
     </div>
   </div>

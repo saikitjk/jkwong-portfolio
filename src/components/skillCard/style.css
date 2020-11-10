@@ -10,6 +10,7 @@
 .skillCardIcon {
   width: 40px;
   height: 40px;
+  object-fit: contain;
 }
 
 .skillCardBody {
@@ -17,10 +18,11 @@
 }
 
 .skillCardTitle {
+  font-size: 0.7rem;
 }
 
 .skillCardDesc {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.5rem;
   color: #6e7e91;
 }

@@ -2,6 +2,13 @@ import React from "react";
 import Intro from "./Intro";
 import LogoReact from "../../assets/images/react.png";
 import LogoJavascript from "../../assets/images/javascript.png";
+import LogoHTML from "../../assets/images/html.png";
+import LogoCSS from "../../assets/images/css.png";
+import LogoPowerShell from "../../assets/images/powershell.jpg";
+import LogoMySQL from "../../assets/images/mysql.png";
+import LogoMongo from "../../assets/images/mongo.png";
+import LogoNode from "../../assets/images/node.png";
+import LogoJQuery from "../../assets/images/jquery.png";
 import "./aboutStyle.css";
 import SkillCard from "../skillCard/SkillCard";
 
@@ -10,11 +17,6 @@ export default function About() {
     {
       skillIcon: LogoReact,
       skillTitle: "React",
-      skillDesc: "vs",
-    },
-    {
-      skillIcon: LogoJavascript,
-      skillTitle: "Javascript",
       skillDesc: "",
     },
     {
@@ -23,28 +25,38 @@ export default function About() {
       skillDesc: "",
     },
     {
-      skillIcon: LogoJavascript,
-      skillTitle: "Javascript",
+      skillIcon: LogoHTML,
+      skillTitle: "HTML",
       skillDesc: "",
     },
     {
-      skillIcon: LogoJavascript,
-      skillTitle: "Javascript",
+      skillIcon: LogoCSS,
+      skillTitle: "CSS",
       skillDesc: "",
     },
     {
-      skillIcon: LogoJavascript,
-      skillTitle: "Javascript",
+      skillIcon: LogoNode,
+      skillTitle: "Node.js",
       skillDesc: "",
     },
     {
-      skillIcon: LogoJavascript,
-      skillTitle: "Javascript",
+      skillIcon: LogoJQuery,
+      skillTitle: "JQuery",
       skillDesc: "",
     },
     {
-      skillIcon: LogoJavascript,
-      skillTitle: "Javascript",
+      skillIcon: LogoMongo,
+      skillTitle: "MongoDB",
+      skillDesc: "",
+    },
+    {
+      skillIcon: LogoMySQL,
+      skillTitle: "MySQL",
+      skillDesc: "",
+    },
+    {
+      skillIcon: LogoPowerShell,
+      skillTitle: "PowerShell",
       skillDesc: "",
     },
   ];
@@ -56,7 +68,11 @@ export default function About() {
         <h6 className="listTitle">Tech I use</h6>
         <div className="row">
           {skills.map((props) => (
-            <SkillCard skill={props} />
+            <SkillCard
+              icon={props.skillIcon}
+              title={props.skillTitle}
+              desc={props.skillDesc}
+            />
           ))}
         </div>
       </div>
