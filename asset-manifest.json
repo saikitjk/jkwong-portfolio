@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jkwong-portfolio/static/css/main.b722e06f.chunk.css",
+    "main.css": "/jkwong-portfolio/static/css/main.5bca33c5.chunk.css",
     "main.js": "/jkwong-portfolio/static/js/main.7bfd1488.chunk.js",
     "main.js.map": "/jkwong-portfolio/static/js/main.7bfd1488.chunk.js.map",
     "runtime-main.js": "/jkwong-portfolio/static/js/runtime-main.cd86dc57.js",
@@ -12,7 +12,7 @@
     "static/js/3.dd8abe6f.chunk.js.map": "/jkwong-portfolio/static/js/3.dd8abe6f.chunk.js.map",
     "index.html": "/jkwong-portfolio/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/jkwong-portfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.b722e06f.chunk.css.map": "/jkwong-portfolio/static/css/main.b722e06f.chunk.css.map",
+    "static/css/main.5bca33c5.chunk.css.map": "/jkwong-portfolio/static/css/main.5bca33c5.chunk.css.map",
     "static/js/2.8c24d095.chunk.js.LICENSE.txt": "/jkwong-portfolio/static/js/2.8c24d095.chunk.js.LICENSE.txt",
     "static/media/css.58511d25.png": "/jkwong-portfolio/static/media/css.58511d25.png",
     "static/media/grad.4972d18c.png": "/jkwong-portfolio/static/media/grad.4972d18c.png",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.cd86dc57.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.8c24d095.chunk.js",
-    "static/css/main.b722e06f.chunk.css",
+    "static/css/main.5bca33c5.chunk.css",
     "static/js/main.7bfd1488.chunk.js"
   ]
 }
