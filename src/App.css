@@ -49,9 +49,11 @@ a:hover {
     padding-right: 10px;
     padding-left: 10px;
     height: auto;
+    margin-bottom: 20px;
   }
 
   .app_main {
     height: auto;
+    margin-bottom: 20px;
   }
 }
