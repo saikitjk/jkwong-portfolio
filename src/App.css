@@ -35,6 +35,10 @@ a:hover {
 
 @media (max-width: 990px) {
   .col-sm-12 {
-    margin-bottom: 40px;
+  }
+
+  .app_main {
+    margin: 30px 0;
+    height: auto;
   }
 }

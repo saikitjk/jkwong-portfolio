@@ -14,8 +14,8 @@ a {
   border-radius: 5px;
 }
 .profilePic {
-  height: 210px;
-  width: 220px;
+  height: 310px;
+  width: 320px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -78,6 +78,7 @@ a {
 @media (max-width: 990px) {
   .sideMenu {
     border-radius: 10px;
+    margin-bottom: 20px;
   }
 }
 

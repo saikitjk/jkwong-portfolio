@@ -10,11 +10,11 @@ function App() {
       <div className="App">
         <div className="container">
           <div className="row appRow">
-            <div className="col-lg-3">
+            <div className="col-sm-12 col-lg-3">
               <Sidebar />
             </div>
 
-            <div className="col-lg-9 app_main">
+            <div className="col-sm-12 col-lg-9 app_main">
               <Main />
             </div>
           </div>
