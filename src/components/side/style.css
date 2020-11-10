@@ -101,7 +101,7 @@ a {
   .sideMenu {
     border-radius: 10px;
 
-    height: auto;
+    height: 100%;
   }
 
   .side_emailme {
