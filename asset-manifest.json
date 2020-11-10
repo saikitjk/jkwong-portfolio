@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/jkwong-portfolio/static/css/main.241ac225.chunk.css",
-    "main.js": "/jkwong-portfolio/static/js/main.97f64aec.chunk.js",
-    "main.js.map": "/jkwong-portfolio/static/js/main.97f64aec.chunk.js.map",
-    "runtime-main.js": "/jkwong-portfolio/static/js/runtime-main.0bf98f1f.js",
-    "runtime-main.js.map": "/jkwong-portfolio/static/js/runtime-main.0bf98f1f.js.map",
+    "main.css": "/jkwong-portfolio/static/css/main.0ca4bbaf.chunk.css",
+    "main.js": "/jkwong-portfolio/static/js/main.a51109b4.chunk.js",
+    "main.js.map": "/jkwong-portfolio/static/js/main.a51109b4.chunk.js.map",
+    "runtime-main.js": "/jkwong-portfolio/static/js/runtime-main.433c2bd0.js",
+    "runtime-main.js.map": "/jkwong-portfolio/static/js/runtime-main.433c2bd0.js.map",
     "static/js/2.5028d248.chunk.js": "/jkwong-portfolio/static/js/2.5028d248.chunk.js",
     "static/js/2.5028d248.chunk.js.map": "/jkwong-portfolio/static/js/2.5028d248.chunk.js.map",
-    "static/js/3.c733534e.chunk.js": "/jkwong-portfolio/static/js/3.c733534e.chunk.js",
-    "static/js/3.c733534e.chunk.js.map": "/jkwong-portfolio/static/js/3.c733534e.chunk.js.map",
+    "static/js/3.9e9c3bc1.chunk.js": "/jkwong-portfolio/static/js/3.9e9c3bc1.chunk.js",
+    "static/js/3.9e9c3bc1.chunk.js.map": "/jkwong-portfolio/static/js/3.9e9c3bc1.chunk.js.map",
     "index.html": "/jkwong-portfolio/index.html",
-    "static/css/main.241ac225.chunk.css.map": "/jkwong-portfolio/static/css/main.241ac225.chunk.css.map",
+    "static/css/main.0ca4bbaf.chunk.css.map": "/jkwong-portfolio/static/css/main.0ca4bbaf.chunk.css.map",
     "static/js/2.5028d248.chunk.js.LICENSE.txt": "/jkwong-portfolio/static/js/2.5028d248.chunk.js.LICENSE.txt",
     "static/media/in.c59baacb.png": "/jkwong-portfolio/static/media/in.c59baacb.png",
+    "static/media/javascript.41f5ddbf.png": "/jkwong-portfolio/static/media/javascript.41f5ddbf.png",
     "static/media/jk.264d7ad4.jpg": "/jkwong-portfolio/static/media/jk.264d7ad4.jpg",
     "static/media/location.cabae390.png": "/jkwong-portfolio/static/media/location.cabae390.png",
     "static/media/phone.fb0e5cf7.png": "/jkwong-portfolio/static/media/phone.fb0e5cf7.png",
+    "static/media/react.f153eb9f.png": "/jkwong-portfolio/static/media/react.f153eb9f.png",
     "static/media/resume.20c2ff82.png": "/jkwong-portfolio/static/media/resume.20c2ff82.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bf98f1f.js",
+    "static/js/runtime-main.433c2bd0.js",
     "static/js/2.5028d248.chunk.js",
-    "static/css/main.241ac225.chunk.css",
-    "static/js/main.97f64aec.chunk.js"
+    "static/css/main.0ca4bbaf.chunk.css",
+    "static/js/main.a51109b4.chunk.js"
   ]
 }
