@@ -12,11 +12,10 @@ body {
 }
 
 .row {
-  height: 93vh;
+  height: 86vh;
 }
-
 @media (max-width: 990px) {
   .col-sm-12 {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
 }
