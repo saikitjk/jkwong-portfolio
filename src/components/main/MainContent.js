@@ -16,7 +16,7 @@ export default function MainContent() {
     <>
       <Nav />
       <Switch>
-        <Route exact path="/home">
+        <Route exact path="/">
           <About />
         </Route>
 
