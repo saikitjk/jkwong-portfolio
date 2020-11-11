@@ -28,9 +28,10 @@ a:hover {
 .app_main {
   background-color: whitesmoke;
   height: 100%;
-  border-radius: 4%;
+
   padding: 25px 15px;
   box-shadow: 0 0 10px skyblue;
+  border-radius: 20px;
 }
 
 @media (max-width: 990px) {
