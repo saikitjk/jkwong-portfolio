@@ -19,7 +19,7 @@ export default function Sidebar() {
       <div className="side_file">
         <a href="https://drive.google.com/file/d/1uf9TAzXfz6H7qDwzpKaI7TUIBn5PF1fC/view?usp=sharing">
           <img className="side_icon" src={Resume} alt="resume" />
-          Resume
+          Download Resume
         </a>
       </div>
 
