@@ -16,7 +16,7 @@ export default function MainContent() {
     <>
       <Nav />
       <Switch>
-        <Route exact path="/jkwong-portflio">
+        <Route exact path="/jkwong-portfolio">
           <About />
         </Route>
 
@@ -28,7 +28,7 @@ export default function MainContent() {
           <Projects />
         </Route>
         <Route>
-          <Redirect to="/" />
+          <Redirect to="/jkwong-portfolio" />
         </Route>
       </Switch>
     </>
