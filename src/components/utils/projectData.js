@@ -120,6 +120,7 @@ const projectData = [
       "MySQL",
       "ORM",
       "Handlebars",
+      "MVC",
     ],
   },
   {
@@ -156,9 +157,10 @@ const projectData = [
       "Javascript",
       "Nodejs",
       "Expressjs",
-      "MySQL",
+      "MongoDB",
       "ORM",
       "Handlebars",
+      "MVC",
     ],
   },
   {
@@ -170,6 +172,23 @@ const projectData = [
       "https://uw-fitness-tracker.herokuapp.com/?id=5f9731b952b32c002e23e352",
     githubURL: "https://saikitjk.github.io/react-employee-directory",
     category: ["html", "css", "Javascript", "Nodejs", "React", "Bootstrap"],
+  },
+  {
+    title: "Winglet",
+    snapShot: Coming,
+    desc: "Coming soon",
+    demoURL: "",
+    githubURL: "https://github.com/saikitjk/react-project-winglet",
+    category: [
+      "html",
+      "css",
+      "Javascript",
+      "Nodejs",
+      "React",
+      "Bootstrap",
+      "MongoDB",
+      "MVC",
+    ],
   },
 ];
 

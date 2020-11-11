@@ -1,11 +1,6 @@
 import React from "react";
 import Nav from "../nav/Navbar";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import About from "../about/About";
 import Resume from "../resume/Resume";
 import Projects from "../projects/Projects";

@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./style.css";
 
 export default function ProjectCard({
   project: { title, snapShot, desc, demoURL, githubURL },
 }) {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className="projectCard col-md-6 col-lg-4">
-      <div className="projectCard" data-aos="zoom-in-up">
+      <div className="projectCard" data-aos="flip-left">
         <div className="card_wrapper">
           <img
             className="card-img-top snapshot"
