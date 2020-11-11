@@ -74,7 +74,102 @@ const projectData = [
     desc: "A note taking application that allows use to manage their notes.",
     demoURL: "https://notestaker-jk.herokuapp.com/",
     githubURL: "https://github.com/saikitjk/NoteTaker",
-    category: ["html", "css", "Javascript", "Nodejs", "Expressjs", "Heroku"],
+    category: ["html", "css", "Javascript", "Nodejs", "Expressjs"],
+  },
+  {
+    title: "Employee Summary Template Engine",
+    snapShot: empTempEngine,
+    desc:
+      "A CLI application that helps users quickly generate a employee summary page.",
+    demoURL:
+      "https://drive.google.com/file/d/1zLFFWpwv2SVITyzmE1PLB-HOlbScdpPs/preview",
+    githubURL: "https://github.com/saikitjk/Employee-Summary-Template-Engine",
+    category: ["html", "css", "Javascript", "Nodejs", "Expressjs"],
+  },
+  {
+    title: "Employee Tracker",
+    snapShot: EmpTracker,
+    desc:
+      "A CLI app that helps users to interact with employee information stored in database.",
+    demoURL:
+      "https://drive.google.com/file/d/1Y4rvHJFNd9zKx8uDWNMWYE6yTSP1y5Ga/preview",
+    githubURL: "https://github.com/saikitjk/Employee_Tracker",
+    category: [
+      "html",
+      "css",
+      "Javascript",
+      "Nodejs",
+      "Expressjs",
+      "MySQL",
+      "jQuery",
+    ],
+  },
+  {
+    title: "Eat-da-burger",
+    snapShot: EatBurger,
+    desc:
+      "A burger logger that helps users tracking the status of their burgers.",
+    demoURL: "https://eat-da-burger-jk5.herokuapp.com",
+    githubURL: "https://github.com/saikitjk/Eat-Da-Burger",
+    category: [
+      "html",
+      "css",
+      "Javascript",
+      "Nodejs",
+      "Expressjs",
+      "MySQL",
+      "ORM",
+      "Handlebars",
+    ],
+  },
+  {
+    title: "Job Finder",
+    snapShot: JobFinder,
+    desc: "A simple Job Finder app that helps users' job searhing experience.",
+    demoURL: "https://uw-jobfinder.herokuapp.com",
+    githubURL: "https://github.com/saikitjk/JobFinder",
+    category: [
+      "html",
+      "css",
+      "Javascript",
+      "Nodejs",
+      "Expressjs",
+      "MySQL",
+      "ORM",
+      "Handlebars",
+      "Sequelize",
+      "Passport",
+      "bcryptjs",
+    ],
+  },
+  {
+    title: "Fitness Tracker",
+    snapShot: FitTracker,
+    desc:
+      "A full-stack workout tracker application that helps users to track their workout routine and performance",
+    demoURL:
+      "https://uw-fitness-tracker.herokuapp.com/?id=5f9731b952b32c002e23e352",
+    githubURL: "https://github.com/saikitjk/FitnessTracker",
+    category: [
+      "html",
+      "css",
+      "Javascript",
+      "Nodejs",
+      "Expressjs",
+      "MySQL",
+      "ORM",
+      "Handlebars",
+    ],
+  },
+  {
+    title: "React Employee Directory",
+    snapShot: ReactEmpDir,
+    desc:
+      "A React app that provides you a list of employees with their avators, names, emails, phone numbers, DOBs and ages.",
+    demoURL:
+      "https://uw-fitness-tracker.herokuapp.com/?id=5f9731b952b32c002e23e352",
+    githubURL: "https://saikitjk.github.io/react-employee-directory",
+    category: ["html", "css", "Javascript", "Nodejs", "React", "Bootstrap"],
   },
 ];
 
