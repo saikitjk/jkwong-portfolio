@@ -11,7 +11,7 @@ import ResumeGen from "../../assets/project_images/readmeGenerator.png";
 import WeatherDash from "../../assets/project_images/weatherDash.png";
 import FitTracker from "../../assets/project_images/fitnessTracker.png";
 import ReactEmpDir from "../../assets/project_images/reactEmpDir.png";
-import Coming from "../../assets/project_images/coming.png";
+import Coming from "../../assets/project_images/coming.jpg";
 
 const projectData = [
   {
