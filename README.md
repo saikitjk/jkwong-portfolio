@@ -10,6 +10,8 @@ https://saikitjk.github.io/jkwong-portfolio/
 
 ## Screenshot
 
+<img width="1156" alt="Screen Shot 2020-11-11 at 11 54 18 AM" src="https://user-images.githubusercontent.com/34286313/98858000-ba641880-2414-11eb-8b1a-4f7868e4a8f7.png">
+
 ## Table of contents
 
 - [Technology](#Technology)
@@ -30,7 +32,7 @@ https://saikitjk.github.io/jkwong-portfolio/
     - CSS
     - Javascript
     - NPM
-        - modules: axios, gh-pages, react, react-moment, react-script
+        - modules: axios, gh-pages, react, react-script, react-router-dom, file-loader, aos,
     - React
     - Bootstrap
 
