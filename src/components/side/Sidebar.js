@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-
 import Git from "../../assets/images/github.png";
 import Linkedin from "../../assets/images/in.png";
 import Phone from "../../assets/images/phone.png";
