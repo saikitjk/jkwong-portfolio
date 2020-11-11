@@ -13,7 +13,7 @@ export default function Intro() {
       </p>
       <p>
         I am currently self-learning Python while completing a full-stack web
-        development bootcamp at the Univeristy of Washington where I am learning
+        development bootcamp at the University of Washington where I am learning
         the MERN stack to improve myself to advance my career to the next level.
       </p>
       <p>
