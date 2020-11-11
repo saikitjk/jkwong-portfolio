@@ -16,6 +16,22 @@
 
 .snapshot {
   width: 100%;
-  height: 80%;
+  height: 150px;
   border-radius: 2px solid;
+}
+
+.demoLink {
+  color: #007bff;
+}
+
+.repoLink {
+  color: #007bff;
+}
+
+.projectDesc {
+  font-size: x-small;
+}
+
+.projectTitle {
+  font-size: small;
 }

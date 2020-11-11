@@ -9,18 +9,18 @@ export default function ProjectCard({
       <div className="projectCard" data-aos="zoom-in-up">
         <div className="card_wrapper">
           <img
-            className="card-img-top"
+            className="card-img-top snapshot"
             alt="project Snapshot"
             src={snapShot}
           ></img>
-          <div className="card-body">
-            <h5 className="card-title">{title}</h5>
-            <p className="card-text">{desc}</p>
+          <div className="card-body projectBody">
+            <div className="card-title projectTitle">{title}</div>
+            <p className="card-text projectDesc">{desc}</p>
             <div className="card-action">
-              <a href={demoURL} target="_blank" class="card-link">
+              <a href={demoURL} target="_blank" class="card-link demoLink">
                 Go
               </a>
-              <a href={githubURL} target="_blank" class="card-link">
+              <a href={githubURL} target="_blank" class="card-link repoLink">
                 Repo
               </a>
             </div>
