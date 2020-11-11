@@ -27,16 +27,35 @@ export default function Projects() {
           ))}
         </div>
       </div>
-      <div className="footerContainer">
+      <footer className="footerContainer">
         <div className="row projectIndex">
-          <div onClick={() => filterCategory("")}>All</div>
-          <div onClick={() => filterCategory("React")}>React</div>
-          <div onClick={() => filterCategory("MongoDB")}>MongoDB</div>
-          <div onClick={() => filterCategory("MySQL")}>MySQL</div>
-          <div onClick={() => filterCategory("Expressjs")}>Expressjs</div>
-          <div onClick={() => filterCategory("Nodejs")}>Nodejs</div>
+          <div className="sortBy">Sort by:</div>
+          <div
+            className="filterObj"
+            onClick={() => setProjectState(ProjectData)}
+          >
+            All
+          </div>
+          <div className="filterObj" onClick={() => filterCategory("React")}>
+            React
+          </div>
+          <div className="filterObj" onClick={() => filterCategory("MongoDB")}>
+            MongoDB
+          </div>
+          <div className="filterObj" onClick={() => filterCategory("MySQL")}>
+            MySQL
+          </div>
+          <div
+            className="filterObj"
+            onClick={() => filterCategory("Expressjs")}
+          >
+            Expressjs
+          </div>
+          <div className="filterObj" onClick={() => filterCategory("Nodejs")}>
+            Nodejs
+          </div>
         </div>
-      </div>
+      </footer>
     </>
   );
 }
