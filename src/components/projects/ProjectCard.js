@@ -12,7 +12,7 @@ export default function ProjectCard({
 
   return (
     <div className="projectCard col-md-6 col-lg-4">
-      <div className="projectCard" data-aos="flip-left">
+      <div className="projectCard">
         <div className="card_wrapper">
           <img
             className="card-img-top snapshot"
