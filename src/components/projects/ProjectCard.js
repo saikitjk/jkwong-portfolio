@@ -23,10 +23,10 @@ export default function ProjectCard({
             <div className="card-title projectTitle">{title}</div>
             <p className="card-text projectDesc">{desc}</p>
             <div className="card-action">
-              <a href={demoURL} target="_blank" class="card-link demoLink">
+              <a href={demoURL} class="card-link demoLink">
                 Go
               </a>
-              <a href={githubURL} target="_blank" class="card-link repoLink">
+              <a href={githubURL} class="card-link repoLink">
                 Repo
               </a>
             </div>
