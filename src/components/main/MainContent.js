@@ -16,7 +16,7 @@ export default function MainContent() {
     <>
       <Nav />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/jkwong-portflio">
           <About />
         </Route>
 
