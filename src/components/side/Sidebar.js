@@ -12,7 +12,7 @@ export default function Sidebar() {
   return (
     <div className="sideMenu">
       <img src={Jk} alt="profile" className="profilePic" />
-      <div className="myName">Jason Kwong</div>
+      <h1 className="myName">Jason Kwong</h1>
       <div className="title">Full Stack Developer</div>
 
       <div className="side_file">

@@ -1,14 +1,20 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 body {
-  background-image: linear-gradient(to top, #274046, #ffffff);
+  background-image: linear-gradient(
+    to right,
+    #1d4350,
+    #a43931
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-attachment: fixed;
 }
 a {
+  font-family: "Abel", sans-serif;
+  font-size: small;
   text-decoration: none;
-  color: #354548;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 a:hover {

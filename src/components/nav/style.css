@@ -4,15 +4,17 @@
 
 .navbar_active {
   font-size: 1rem;
-  font-weight: 700;
-  color: #354358;
+
+  color: rgba(0, 0, 0, 0.5);
   border-bottom: 4px solid grey;
+  font-family: "Abel", sans-serif;
 }
 
 .navbar_object {
   margin-right: 20px;
   text-decoration: none;
-  color: #354358;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Abel", sans-serif;
   font-size: 0.8rem;
   cursor: pointer;
 }

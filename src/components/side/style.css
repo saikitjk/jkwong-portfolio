@@ -1,9 +1,10 @@
 a {
-  color: #354358;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Abel", sans-serif;
 }
 
 .sideMenu {
-  background-color: whitesmoke;
+  background-color: #fff;
   height: 100%;
   padding-top: 25px;
   padding-left: 20px;
@@ -30,16 +31,19 @@ a {
   padding-top: 30px;
   padding-bottom: 10px;
   font-size: large;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Special Elite", cursive;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .title {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #fff;
+  background-color: whitesmoke;
+  font-family: "Abel", sans-serif;
   border-radius: 5px;
   margin-left: 50px;
   margin-right: 50px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .side_file {
@@ -48,7 +52,10 @@ a {
 }
 
 .side_location {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Abel", sans-serif;
   padding-bottom: 20px;
+  font-size: 17.8px;
 }
 .contact_item {
   padding-bottom: 10px;
@@ -69,6 +76,9 @@ a {
   margin-left: 50px;
   margin-right: 50px;
   border-radius: 5px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Abel", sans-serif;
+  font-size: 17.8px;
 }
 
 .side_emailme {
