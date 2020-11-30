@@ -107,8 +107,7 @@ const projectData = [
   {
     title: "Eat-da-burger",
     snapShot: EatBurger,
-    desc:
-      "A burger logger that helps users tracking the status of their burgers.",
+    desc: "A burger logger that helps users track the status of their burgers.",
     demoURL: "https://eat-da-burger-jk5.herokuapp.com",
     githubURL: "https://github.com/saikitjk/Eat-Da-Burger",
     category: [
