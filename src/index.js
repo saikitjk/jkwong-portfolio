@@ -6,7 +6,7 @@ import { BrowserRouter, HashRouter } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <HashRouter basename="/jkwong-portfolio">
+  <HashRouter>
     <App />
   </HashRouter>,
   document.getElementById("root")
@@ -16,3 +16,5 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+//basename="/jkwong-portfolio"
