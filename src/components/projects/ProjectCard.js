@@ -1,7 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import ReactTooltip from "react-tooltip";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./style.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
+
+const playCircleIcon = <FontAwesomeIcon icon={faPlayCircle} />;
 
 export default function ProjectCard({
   project: { title, snapShot, desc, demoURL, githubURL },
@@ -14,22 +19,27 @@ export default function ProjectCard({
     <div className="projectCard col-md-6 col-lg-4">
       <div className="projectCard">
         <div className="card_wrapper">
-          <img
-            className="card-img-top snapshot"
-            alt="project Snapshot"
-            src={snapShot}
-          ></img>
-          <div className="card-body projectBody">
+          <div className="card_name_img" data-tip={desc}>
+            <img
+              className="card-img-top snapshot"
+              alt="project Snapshot"
+              src={snapShot}
+            ></img>
+
             <div className="card-title projectTitle">{title}</div>
-            <p className="card-text projectDesc">{desc}</p>
-            <div className="card-action">
-              <a href={demoURL} class="card-link demoLink">
-                Go
-              </a>
-              <a href={githubURL} class="card-link repoLink">
-                Repo
-              </a>
-            </div>
+          </div>
+
+          <ReactTooltip place="top" type="dark" effect="float" />
+
+          <div className="card-action projectAction">
+            <a href={demoURL} class="card-link demoLink">
+              <span>
+                <i className="playCircleIcon">{playCircleIcon}</i>
+              </span>
+            </a>
+            <a href={githubURL} class="card-link repoLink">
+              Repo
+            </a>
           </div>
         </div>
       </div>
@@ -37,24 +47,4 @@ export default function ProjectCard({
   );
 }
 
-// <div className="projectCard col-md-6 col-lg-4">
-// <div className="card_wrapper">
-//   <div className="snapShot">
-//     <img src={snapShot} alt={title} className="snapshot" />
-//   </div>
-//   <div className="projectTitle">
-//     <a
-//       href={githubURL}
-//       target="_blank"
-//       class="btn btn-link"
-//       role="button"
-//     >
-//       Repo
-//     </a>
-//     {title}
-//     <a href={demoURL} target="_blank" class="btn btn-link" role="button">
-//       Demo
-//     </a>
-//   </div>
-// </div>
-// </div>
+//            <p className="card-text projectDesc">{desc}</p>

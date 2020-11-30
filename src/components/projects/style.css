@@ -37,11 +37,14 @@
 
 .projectTitle {
   font-size: small;
+  padding-top: 10px;
+  margin-bottom: 1px;
 }
 
 .projectIndex {
   padding-top: 5px;
   padding-left: 10px;
+
   font-size: small;
 }
 
@@ -55,6 +58,7 @@
   color: lightslategray;
   color: rgba(0, 0, 0, 0.5);
   font-family: "Abel", sans-serif;
+  font-size: smaller;
   margin-left: 10px;
   margin-right: 10px;
 }
