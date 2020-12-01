@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../nav/Navbar";
 import { Route, Switch, Redirect } from "react-router-dom";
 import About from "../about/About";
-import Resume from "../resume/Resume.js";
+import Resume from "../resume/Resume";
 import Projects from "../projects/Projects";
 import "./style.css";
 
