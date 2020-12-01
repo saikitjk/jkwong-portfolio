@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import ReactTooltip from "react-tooltip";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -19,7 +19,12 @@ export default function ProjectCard({
     <div className="projectCard col-md-6 col-lg-4">
       <div className="projectCard">
         <div className="card_wrapper">
-          <div className="card_name_img" data-tip={desc}>
+          <div
+            className="card_name_img"
+            data-tip={desc}
+            data-delay-show={250}
+            data-border={true}
+          >
             <img
               className="card-img-top snapshot"
               alt="project Snapshot"
@@ -29,7 +34,12 @@ export default function ProjectCard({
             <div className="card-title projectTitle">{title}</div>
           </div>
 
-          <ReactTooltip place="top" type="dark" effect="float" />
+          <ReactTooltip
+            className="descPopup"
+            place="top"
+            type="light"
+            effect="solid"
+          />
 
           <div className="card-action projectAction">
             <a href={demoURL} class="card-link demoLink">

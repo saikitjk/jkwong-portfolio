@@ -32,7 +32,7 @@ https://jkwong-portfolio.herokuapp.com/
     - CSS
     - Javascript
     - NPM
-        - modules: axios, gh-pages, react, react-script, react-router-dom, file-loader, aos,
+        - modules: axios, gh-pages, react, react-script, react-router-dom, react-tooltip, reactstrap, file-loader, aos,
     - React
     - Bootstrap
 
