@@ -4,7 +4,7 @@ module.exports = {
   entry: `${__dirname}/src/index.tsx`,
   output: {
     path: `${__dirname}/build`,
-    publicPath: "/",
+    publicPath: "/jkwong-portfolio/build/",
     filename: "bundle.js",
   },
 
@@ -44,11 +44,12 @@ module.exports = {
   // to mimic GitHub Pages serving 404.html for all paths
   // and test spa-github-pages redirect in dev
   devServer: {
-    historyApiFallback: true,
-    // {
-    //   rewrites: [{ from: /\/jkwong-portfolio\/[^?]/, to: "/404.html" }],
-    // },
+    historyApiFallback: {
+      rewrites: [
+        { from: /\/jkwong-portfolio\/[^?]/, to: "/404.html" },
+        { from: /\/resume\/[^?]/, to: "/404.html" },
+        { from: /\/projects\/[^?]/, to: "/404.html" },
+      ],
+    },
   },
 };
-
-//jkwong-portfolio/build/
