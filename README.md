@@ -6,7 +6,7 @@ My professional portfolio that built upon a foundation in combination of React, 
 
 ## Deployed application
 
-https://saikitjk.github.io/jkwong-portfolio/
+https://jkwong-portfolio.herokuapp.com/
 
 ## Screenshot
 
