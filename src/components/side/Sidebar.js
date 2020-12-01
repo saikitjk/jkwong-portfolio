@@ -7,6 +7,7 @@ import Email from "../../assets/images/email.png";
 import Jk from "../../assets/images/jk.jpg";
 import Pin from "../../assets/images/location.png";
 import Resume from "../../assets/images/resume.png";
+import ReactTooltip from "react-tooltip";
 
 export default function Sidebar() {
   return (
@@ -40,18 +41,56 @@ export default function Sidebar() {
             Linkedin
           </a>
         </div>
-        <div className="contact_item">
-          <img src={Phone} className="side_icon" alt="phone" />
-          <span class="popuptext" id="phonePopup">
-            253-389-6796
-          </span>
+
+        <div className="row side_emailAndPhone">
+          <div className="col-md-6 ">
+            <a href="mailto:saikitjk@gmail.com">
+              <img
+                className="side_icon"
+                src={Email}
+                alt="email"
+                data-tip={"saikitjk@gmail.com"}
+                data-for="emailPopup"
+                data-delay-show={250}
+                data-delay-hide={250}
+                data-border={true}
+                data-type="dark"
+              />
+            </a>
+            <ReactTooltip
+              className="emailPopup"
+              id="emailPopup"
+              place="top"
+              effect="solid"
+            />
+          </div>
+
+          <div className="col-md-6 ">
+            <img
+              src={Phone}
+              className="side_icon"
+              id="phoneIcon"
+              alt="phone"
+              data-tip={"253-389-6796"}
+              data-for="phonePopup"
+              data-event="click focus"
+              data-border={true}
+              data-type="dark"
+            />
+            <ReactTooltip
+              getContent={(dataTip) => <div>{dataTip}</div>}
+              effect="solid"
+              delayHide={500}
+              delayShow={500}
+              delayUpdate={500}
+              className="phonePopup"
+              id="phonePopup"
+              globalEventOff="click"
+              clickable={true}
+              place="top"
+            />
+          </div>
         </div>
-      </div>
-      <div className="side_emailme">
-        <a href="mailto:saikitjk@gmail.com">
-          <img className="side_icon" src={Email} alt="email" />
-          Email
-        </a>
       </div>
     </div>
   );
