@@ -23,14 +23,7 @@ export default function Projects() {
   }, []);
   return (
     <>
-      <div className="container projectContainer">
-        <div className="row projectRow">
-          {project.map((project) => (
-            <ProjectCard key={project.title} project={project} />
-          ))}
-        </div>
-      </div>
-      <footer className="footerContainer">
+      <header className="headerContainer">
         <div className="row projectIndex">
           <div className="sortBy">
             <span>
@@ -62,7 +55,14 @@ export default function Projects() {
             Nodejs
           </div>
         </div>
-      </footer>
+      </header>
+      <div className="container projectContainer">
+        <div className="row projectRow">
+          {project.map((project) => (
+            <ProjectCard key={project.title} project={project} />
+          ))}
+        </div>
+      </div>
     </>
   );
 }

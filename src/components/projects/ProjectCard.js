@@ -39,13 +39,16 @@ export default function ProjectCard({
               id="descPopup"
               place="top"
               effect="solid"
+              data-html="true"
+              insecure="true"
+              data-multiline="true"
             />
           </div>
 
           <div className="card-action projectAction">
             <a href={demoURL} class="card-link demoLink">
               <span>
-                <i className="playCircleIcon">{playCircleIcon}</i>
+                <i className="playCircleIcon">{playCircleIcon}</i>Go
               </span>
             </a>
             <a href={githubURL} class="card-link repoLink">

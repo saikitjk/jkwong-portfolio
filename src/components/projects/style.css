@@ -48,8 +48,9 @@
   font-size: small;
 }
 
-.footerContainer {
+.headerContainer {
   margin-top: 5px;
+  margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -79,6 +80,11 @@
   font-size: 15px !important;
   pointer-events: auto !important;
   border-radius: 5px;
+  width: 200px;
+}
+
+.descPopup-inner {
+  white-space: pre-wrap;
 }
 
 .descPopup :hover {
