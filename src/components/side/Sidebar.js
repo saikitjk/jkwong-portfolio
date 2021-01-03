@@ -44,12 +44,12 @@ export default function Sidebar() {
 
         <div className="row side_emailAndPhone">
           <div className="col-md-6 ">
-            <a href="mailto:saikitjk@gmail.com">
+            <a href="mailto:skjkwong@gmail.com">
               <img
                 className="side_icon"
                 src={Email}
                 alt="email"
-                data-tip={"saikitjk@gmail.com"}
+                data-tip={"skjkwong@gmail.com"}
                 data-for="emailPopup"
                 data-delay-show={250}
                 data-delay-hide={250}
