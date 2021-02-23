@@ -128,3 +128,11 @@ a {
     padding-bottom: 20px;
   }
 }
+
+@media (max-width: 420px) {
+  .profilePic {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
