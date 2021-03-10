@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
+//import axios from "axios";
 import "aos/dist/aos.css";
 import Sidebar from "./components/side/Sidebar";
 import Main from "./components/main/MainContent";
@@ -10,6 +11,29 @@ function App() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
+
+  useEffect(() => {
+    setInterval(() => {
+      async function doRequest() {
+        //ping jkwong-portfolio.herokuapp.com/
+        const response = await fetch("jkwong-portfolio.herokuapp.com/");
+        if (response.status === 200) {
+          // Store response body normally
+          console.log("pinged. Site awake");
+          return;
+        }
+      }
+      doRequest();
+    }, 1200000);
+  }, []);
+
+  // useEffect(() => {
+  //   // GET request using fetch inside useEffect React hook
+  //   fetch('https://jkwong-portfolio.herokuapp.com/')
+  //       .then(response => response.json())
+
+  // }, []);
+
   return (
     <Router>
       <div className="App">
@@ -32,3 +56,16 @@ function App() {
 export default App;
 
 //<div className="app_main">
+
+// useEffect(() => {
+//   async function doRequest() {
+//     const response = await fetch("https://httpstat.us/400");
+//     if (response.ok) {
+//       // Store response body normally
+//       console.log("Site awake")
+//       return;
+//     }
+
+//   }
+//   doRequest();
+// }, []);
