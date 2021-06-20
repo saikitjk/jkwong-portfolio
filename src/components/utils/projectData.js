@@ -171,9 +171,8 @@ const projectData = [
     snapShot: ReactEmpDir,
     desc:
       "A React app that provides you a list of employees with their avators, names, emails, phone numbers, DOBs and ages. The concepts and technologies used: HTML/ CSS, Javascript, NPM, React, Boostrap",
-    demoURL:
-      "https://uw-fitness-tracker.herokuapp.com/?id=5f9731b952b32c002e23e352",
-    githubURL: "https://saikitjk.github.io/react-employee-directory",
+    demoURL: "https://saikitjk.github.io/react-employee-directory",
+    githubURL: "https://github.com/saikitjk/react-employee-directory",
     category: ["html", "css", "Javascript", "Nodejs", "React", "Bootstrap"],
   },
   {
