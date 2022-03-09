@@ -39,17 +39,17 @@ export default function Projects() {
           <div className="filterObj" onClick={() => filterCategory("React")}>
             React
           </div>
-          <div className="filterObj" onClick={() => filterCategory("MongoDB")}>
-            MongoDB
-          </div>
-          <div className="filterObj" onClick={() => filterCategory("MySQL")}>
-            MySQL
-          </div>
           <div
             className="filterObj"
-            onClick={() => filterCategory("Expressjs")}
+            onClick={() => filterCategory("FullStack")}
           >
-            Expressjs
+            Full Stack
+          </div>
+          <div className="filterObj" onClick={() => filterCategory("Frontend")}>
+            Frontend
+          </div>
+          <div className="filterObj" onClick={() => filterCategory("Backend")}>
+            Backend
           </div>
           <div className="filterObj" onClick={() => filterCategory("Nodejs")}>
             Nodejs
