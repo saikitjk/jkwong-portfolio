@@ -58,7 +58,7 @@ a {
 .side_location {
   color: rgba(0, 0, 0, 0.5);
   font-family: "Abel", sans-serif;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   font-size: 17.8px;
 }
 .contact_item {
