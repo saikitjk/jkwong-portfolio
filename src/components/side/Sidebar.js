@@ -1,13 +1,14 @@
 import React from "react";
 import "./style.css";
-import Git from "../../assets/images/github.png";
-import Linkedin from "../../assets/images/in.png";
 import Phone from "../../assets/images/phone.png";
 import Email from "../../assets/images/email.png";
 import Jk from "../../assets/images/jk.jpg";
-import Pin from "../../assets/images/location.png";
 import Resume from "../../assets/images/resume.png";
 import ReactTooltip from "react-tooltip";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Sidebar() {
   return (
@@ -24,20 +25,20 @@ export default function Sidebar() {
       </div>
 
       <div className="side_location">
-        <img className="side_icon" src={Pin} alt="location" />
+        <FontAwesomeIcon icon={faMapMarkerAlt} className="fa-2x" />
         Seattle, WA
       </div>
 
       <div className="side_contacts">
         <div className="contact_item">
           <a href="https://github.com/saikitjk">
-            <img className="side_icon" src={Git} alt="git" />
+            <FontAwesomeIcon icon={faGithub} className="fa-2x" />
             Github
           </a>
         </div>
         <div className="contact_item">
           <a href="https://www.linkedin.com/in/saikitjk/">
-            <img className="side_icon" src={Linkedin} alt="Linkedin" />
+            <FontAwesomeIcon icon={faLinkedin} className="fa-2x" />
             Linkedin
           </a>
         </div>

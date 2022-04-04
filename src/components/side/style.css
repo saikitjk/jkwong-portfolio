@@ -95,6 +95,10 @@ a {
   border-radius: 5px;
 }
 
+.fa-2x {
+  margin-right: 5px;
+}
+
 @media (max-width: 990px) {
   .sideMenu {
     border-radius: 20px;
