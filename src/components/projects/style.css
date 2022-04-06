@@ -8,10 +8,13 @@
 }
 
 .card_wrapper {
-  margin: 10px 0;
+  margin: 10px 0 0 0;
   width: 100%;
   height: 100%;
   min-height: 160px;
+}
+.projectAction {
+  margin-bottom: 10px;
 }
 
 .snapshot {
@@ -91,4 +94,16 @@
 .descPopup :hover {
   visibility: visible !important;
   opacity: 5 !important;
+}
+
+.playCircleIcon {
+  margin-right: 20px;
+}
+
+.gitCatIcon {
+  margin-right: 20px;
+}
+
+.infoIcon {
+  color: #073a5f;
 }

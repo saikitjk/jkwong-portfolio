@@ -1,7 +1,10 @@
 import React from "react";
 import "./style.css";
-import LogoLocation from "../../assets/images/location.png";
-import LogoCalendar from "../../assets/images/calender.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMapMarkerAlt,
+  faCalendarAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Experience() {
   return (
@@ -51,10 +54,11 @@ export default function Experience() {
           </ul>
         </div>
         <div data-aos="zoom-in-left" id="eddates" class="col s5 m4 l3">
-          <img src={LogoLocation} alt="location icon" width="10%" /> Lacey, WA
+          <FontAwesomeIcon icon={faMapMarkerAlt} className="fa-lg" />
+          Lacey, WA
           <br />
           <br />
-          <img src={LogoCalendar} alt="calender icon" width="10%" /> October
+          <FontAwesomeIcon icon={faCalendarAlt} className="fa-lg" /> October
           2018- Present
         </div>
       </div>
@@ -90,11 +94,12 @@ export default function Experience() {
           </ul>
         </div>
         <div data-aos="zoom-in-left" id="eddates" class="col s5 m4 l3">
-          <img src={LogoLocation} alt="location icon" width="10%" /> Seattle, WA
+          <FontAwesomeIcon icon={faMapMarkerAlt} className="fa-lg" /> Seattle,
+          WA
           <br />
           <br />
-          <img src={LogoCalendar} alt="calender icon" width="10%" /> June 2018 -
-          August 2018
+          <FontAwesomeIcon icon={faCalendarAlt} className="fa-lg" />
+          June 2018 - August 2018
         </div>
       </div>
     </div>

@@ -74,7 +74,7 @@ a {
   margin-right: 5px;
 }
 
-.side_contacts {
+.fa-2x .side_contacts {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #fff;
@@ -95,9 +95,9 @@ a {
   border-radius: 5px;
 }
 
-.fa-2x {
-  margin-right: 5px;
-}
+/* .fa-lg {
+  margin-right: 10px;
+} */
 
 @media (max-width: 990px) {
   .sideMenu {

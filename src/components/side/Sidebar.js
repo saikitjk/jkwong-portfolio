@@ -1,12 +1,14 @@
 import React from "react";
-import "./style.css";
-import Phone from "../../assets/images/phone.png";
-import Email from "../../assets/images/email.png";
+import "../side/style.css";
 import Jk from "../../assets/images/jk.jpg";
 import Resume from "../../assets/images/resume.png";
 import ReactTooltip from "react-tooltip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faMapMarkerAlt,
+  faPhone,
+  faAt,
+} from "@fortawesome/free-solid-svg-icons";
 
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -25,20 +27,20 @@ export default function Sidebar() {
       </div>
 
       <div className="side_location">
-        <FontAwesomeIcon icon={faMapMarkerAlt} className="fa-2x" />
+        <FontAwesomeIcon icon={faMapMarkerAlt} className="fa-lg" />
         Seattle, WA
       </div>
 
       <div className="side_contacts">
         <div className="contact_item">
           <a href="https://github.com/saikitjk">
-            <FontAwesomeIcon icon={faGithub} className="fa-2x" />
+            <FontAwesomeIcon icon={faGithub} className="fa-lg" />
             Github
           </a>
         </div>
         <div className="contact_item">
           <a href="https://www.linkedin.com/in/saikitjk/">
-            <FontAwesomeIcon icon={faLinkedin} className="fa-2x" />
+            <FontAwesomeIcon icon={faLinkedin} className="fa-lg" />
             Linkedin
           </a>
         </div>
@@ -46,9 +48,10 @@ export default function Sidebar() {
         <div className="row side_emailAndPhone">
           <div className="col-md-6 ">
             <a href="mailto:skjkwong@gmail.com">
-              <img
-                className="side_icon"
-                src={Email}
+              <FontAwesomeIcon
+                icon={faAt}
+                className="fa-3x side_icon"
+                id="emailIcon"
                 alt="email"
                 data-tip={"skjkwong@gmail.com"}
                 data-for="emailPopup"
@@ -67,9 +70,9 @@ export default function Sidebar() {
           </div>
 
           <div className="col-md-6 ">
-            <img
-              src={Phone}
-              className="side_icon"
+            <FontAwesomeIcon
+              icon={faPhone}
+              className="fa-2x side_icon"
               id="phoneIcon"
               alt="phone"
               data-tip={"253-389-6796"}

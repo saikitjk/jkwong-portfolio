@@ -150,7 +150,7 @@ const projectData = [
     title: "Employee Tracker",
     snapShot: EmpTracker,
     desc:
-      "A CLI app that helps users to interact with employee information stored in database. The concepts and technologies used: JavaScript, JQuery, NodeJS, MySQL, JSON, Async programming and NPM.",
+      "A CLI app that helps users to interact with employee information stored in database and result would be rendered to a HTML page. The concepts and technologies used: JavaScript, JQuery, NodeJS, MySQL, JSON, Async programming and NPM.",
     demoURL:
       "https://drive.google.com/file/d/1Y4rvHJFNd9zKx8uDWNMWYE6yTSP1y5Ga/preview",
     githubURL: "https://github.com/saikitjk/Employee_Tracker",

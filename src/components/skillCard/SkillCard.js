@@ -3,7 +3,7 @@ import "./style.css";
 
 //object destructuring first
 const SkillCard = (props) => (
-  <div className="col-lg-6">
+  <div className="col-lg-4">
     <div className="skillCard">
       <img src={props.icon} alt="skillIcon" className="skillCardIcon" />
       <div className="skillCardBody">

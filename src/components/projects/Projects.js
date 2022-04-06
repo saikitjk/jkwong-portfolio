@@ -7,8 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilter } from "@fortawesome/free-solid-svg-icons";
 import "./style.css";
 
-const filterIcon = <FontAwesomeIcon icon={faFilter} />;
-
 export default function Projects() {
   const [project, setProjectState] = useState(ProjectData);
 
@@ -27,7 +25,9 @@ export default function Projects() {
         <div className="row projectIndex">
           <div className="sortBy">
             <span>
-              <i className="filterIcon">{filterIcon}</i>
+              <i className="filterIcon">
+                <FontAwesomeIcon icon={faFilter} />
+              </i>
             </span>
           </div>
           <div
