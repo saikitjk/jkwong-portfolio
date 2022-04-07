@@ -20,27 +20,29 @@ export default function Sidebar() {
       <div className="title">Full Stack Developer</div>
 
       <div className="side_file">
-        <a href="https://drive.google.com/file/d/1uf9TAzXfz6H7qDwzpKaI7TUIBn5PF1fC/view?usp=sharing">
-          <img className="side_icon" src={Resume} alt="resume" />
-          Download Resume
-        </a>
+        <div className="resumeDownload">
+          <a href="https://drive.google.com/file/d/1uf9TAzXfz6H7qDwzpKaI7TUIBn5PF1fC/view?usp=sharing">
+            <img className="side_icon" src={Resume} alt="resume" />
+            Download Resume
+          </a>
+        </div>
       </div>
 
       <div className="side_location">
-        <FontAwesomeIcon icon={faMapMarkerAlt} className="fa-lg" />
+        <FontAwesomeIcon icon={faMapMarkerAlt} className="locationIcon" />
         Seattle, WA
       </div>
 
       <div className="side_contacts">
         <div className="contact_item">
           <a href="https://github.com/saikitjk">
-            <FontAwesomeIcon icon={faGithub} className="fa-lg" />
+            <FontAwesomeIcon icon={faGithub} className="gitIcon" />
             Github
           </a>
         </div>
         <div className="contact_item">
           <a href="https://www.linkedin.com/in/saikitjk/">
-            <FontAwesomeIcon icon={faLinkedin} className="fa-lg" />
+            <FontAwesomeIcon icon={faLinkedin} className="linkedinIcon" />
             Linkedin
           </a>
         </div>

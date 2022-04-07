@@ -36,7 +36,7 @@ a {
   padding-bottom: 10px;
   font-size: large;
   font-family: "Special Elite", cursive;
-  color: rgba(0, 0, 0, 0.5);
+  color: #073a5f;
 }
 
 .title {
@@ -53,6 +53,14 @@ a {
 .side_file {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.resumeDownload {
+  padding: 10px 2px 10px 2px;
+}
+.resumeDownload:hover {
+  background-color: #e4e4e4;
+  border-radius: 5px;
 }
 
 .side_location {
@@ -95,9 +103,20 @@ a {
   border-radius: 5px;
 }
 
-/* .fa-lg {
+.locationIcon {
+  font-size: 26px;
   margin-right: 10px;
-} */
+}
+
+.gitIcon {
+  font-size: 26px;
+  margin-right: 10px;
+}
+
+.linkedinIcon {
+  font-size: 26px;
+  margin-right: 10px;
+}
 
 @media (max-width: 990px) {
   .sideMenu {

@@ -18,14 +18,6 @@ export default function ProjectCard({
     <div className="projectCard col-md-6 col-lg-4">
       <div className="projectCard">
         <div className="card_wrapper">
-          {/* <div
-            className="card_name_img"
-            data-tip={desc}
-            data-for="descPopup"
-            data-delay-show={250}
-            data-border={true}
-            data-type="light"
-          > */}
           <img
             className="card-img-top snapshot"
             alt="project Snapshot"
@@ -33,20 +25,11 @@ export default function ProjectCard({
           ></img>
 
           <div className="card-title projectTitle">{title}</div>
-          {/* <ReactTooltip
-              className="descPopup"
-              id="descPopup"
-              place="top"
-              effect="solid"
-              data-html="true"
-              insecure="true"
-              data-multiline="true"
-            /> */}
         </div>
 
         <div className="card-action projectAction">
           <a href={demoURL} className="demoLink">
-            <i className="playCircleIcon">
+            <i className="linkIcon">
               <FontAwesomeIcon icon={faLink} />
             </i>
           </a>
