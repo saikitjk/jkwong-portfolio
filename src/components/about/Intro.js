@@ -25,7 +25,7 @@ export default function Intro() {
         I enjoy working around people with different background and with
         different culture. I grew up in a multicultural environment and have
         learnt to respect and appreciate value different people bring together
-        with the background.{" "}
+        with the background.
       </p>
     </div>
   );
