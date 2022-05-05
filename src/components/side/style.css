@@ -124,6 +124,13 @@ a {
     margin-bottom: 20px;
   }
 }
+.side_emailAndPhone {
+  padding: 10px 10px 10px 10px;
+}
+
+.side_emailAndPhone .col-md-6 {
+  width: 50%;
+}
 
 @media (min-width: 991px) {
   .title {
