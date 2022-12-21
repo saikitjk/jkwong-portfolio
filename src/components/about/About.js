@@ -67,8 +67,9 @@ export default function About() {
       <div className="container">
         <h6 className="listTitle">Tech I use</h6>
         <div className="row">
-          {skills.map((props) => (
+          {skills.map((props, idx) => (
             <SkillCard
+              key={idx}
               icon={props.skillIcon}
               title={props.skillTitle}
               desc={props.skillDesc}
