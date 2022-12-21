@@ -3,13 +3,13 @@
 }
 
 body {
-  background-image: linear-gradient(
-    to right,
-    #1d4350,
-    #a43931
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(to right,
+      #1d4350,
+      #a43931);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-attachment: fixed;
 }
+
 a {
   font-family: "Abel", sans-serif;
   font-size: small;
@@ -51,6 +51,7 @@ a:hover {
   padding-left: 5px;
   padding-right: 5px;
 }
+
 @media (min-width: 991px) {
   .app_side {
     padding-right: 10px;
@@ -61,6 +62,6 @@ a:hover {
 
   .app_main {
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
   }
 }
